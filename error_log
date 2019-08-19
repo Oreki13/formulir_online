@@ -1,0 +1,1 @@
+[25-Jun-2019 13:27:02 UTC] PHP Fatal error:  Call to undefined function random_bytes() in /home/orekisan/public_html/palcomtech/application/controllers/Auth.php on line 111
