@@ -1,29 +1,25 @@
 ###################
-What is CodeIgniter
+Web Formulir Online
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Web Formulir Onine Merupakan web untuk melakukan pendaftaran yang diharuskan peserta untuk mengisi form pendaftaran, web ini dibuat dengan codeigniter dan bootstrap 4 dengan theme SBAdmin2
 
 *******************
 Release Information
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
-
+Update Final 
 **************************
 Changelog and New Features
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+- CRUD
+- ADMIN PAGE
+- USER PAGE
+- Add DatePicker
+- Pagination
+- TABLE AJAX
+- Email TOKEN
 
 *******************
 Server Requirements
@@ -39,8 +35,21 @@ issues, as well as missing features.
 Installation
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+- Set Database di \application\config
+```
+    'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'db_formulir',
+```
+    Upload sql file ke database dan sesuaikan
+
+-   Set Untuk Base URL di \application\config
+    Ubah URL dengan link localhost atau base url masing-masing
+```
+$config['base_url'] = 'http://localhost/palcomtech/';
+```
+
 
 *******
 License
