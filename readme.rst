@@ -36,11 +36,12 @@ Installation
 ************
 
 - Set Database di \application\config
-```
+```{
     'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
 	'database' => 'db_formulir',
+    }
 ```
     Upload sql file ke database dan sesuaikan
 
