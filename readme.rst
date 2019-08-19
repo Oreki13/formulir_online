@@ -35,15 +35,14 @@ issues, as well as missing features.
 Installation
 ************
 
-- Set Database di \application\config
-```{
+-   Set Database di \application\config
+    Upload sql file ke database dan sesuaikan
+```
     'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
 	'database' => 'db_formulir',
-    }
 ```
-    Upload sql file ke database dan sesuaikan
 
 -   Set Untuk Base URL di \application\config
     Ubah URL dengan link localhost atau base url masing-masing
