@@ -38,7 +38,12 @@ Installation
 -   Set Database di \application\config
     Upload sql file ke database dan sesuaikan
 ```
-asdasd
+{
+    'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'db_formulir',
+}
 ```
 
 -   Set Untuk Base URL di \application\config
