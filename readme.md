@@ -47,3 +47,11 @@ $ git clone https://github.com/Oreki13/formulir_online.git
 ```
 $config['base_url'] = 'http://localhost/';
 ```
+## Preview
+- Untuk Preview bisa kunjungi https://oreki-san.web.id/palcomtech/auth
+Akun User =
+- email = user@user.com
+- password = 123456
+Akun Admin = 
+- email = admin@admin.com
+- password = 123456
