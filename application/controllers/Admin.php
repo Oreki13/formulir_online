@@ -35,9 +35,12 @@ class Admin extends CI_Controller
     {
         $data1 = $this->db->get_where('data_user', ['id' => $id])->row_array();
         $tes = $data1['email'];
+        $namanya = $data1['name'];
+        
 
 
         $data2 = $this->db->get_where('user', ['email' => $tes])->row_array();
+        
         $email = $data2['email'];
         $old_image = $data1['gambar'];
 
@@ -50,7 +53,7 @@ class Admin extends CI_Controller
         unlink(FCPATH . 'assets/img/profile/' . $old_image);
 
 
-        $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Data Berhasil di hapus</div>');
+        $this->session->set_flashdata('message', "{$namanya} Dihapus!");
         redirect('admin');
     }
 
@@ -168,7 +171,7 @@ class Admin extends CI_Controller
             $this->db->where('email', $email);
             $this->db->update('data_user');
 
-            $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Data berhasil di update!</div>');
+            $this->session->set_flashdata('message', 'Data Berhasil DiUpdate!');
             redirect('admin');
         }
     }
@@ -302,6 +305,7 @@ class Admin extends CI_Controller
     }
 
     public function list(){
+        
 
         $data['user'] = $this->db->get_where('user', ['email' =>
         $this->session->userdata('email')])->row_array();

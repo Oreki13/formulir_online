@@ -1,6 +1,7 @@
 
         <!-- Begin Page Content -->
         <div class="container-fluid ">
+        
 
 <div class="flash-data" data-flashdata="<?= $this->session->flashdata('message'); ?>"></div>
 
