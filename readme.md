@@ -25,7 +25,10 @@ such old versions of PHP, because of potential security and performance
 issues, as well as missing features.
 
 ## Installation
-
+- Clone git ini
+```
+$ git clone https://github.com/Oreki13/formulir_online.git
+```
 - Set Database di \application\config
   Upload sql file ke database dan sesuaikan
 
@@ -42,5 +45,15 @@ issues, as well as missing features.
   Ubah URL dengan link localhost atau base url masing-masing
 
 ```
-$config['base_url'] = 'http://localhost/palcomtech/';
+$config['base_url'] = 'http://localhost/';
 ```
+## Preview
+- Untuk Preview bisa kunjungi https://oreki-san.web.id/palcomtech/auth
+
+Akun User :
+- email : user@user.com
+- password : 123456
+
+Akun Admin : 
+- email : admin@admin.com
+- password : 123456
